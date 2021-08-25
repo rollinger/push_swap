@@ -1,3 +1,6 @@
+#include "stack.h"
 
-void swapStack(t_stack *Stack);
-void pushStack(t_stack *srcStack, t_stack *dstStack);
+void swapTopStack(t_stack *Stack);
+void pushTopToStack(t_stack *srcStack, t_stack *dstStack);
+void rotateStack(t_stack *Stack);
+void reverse_rotateStack(t_stack *Stack);
