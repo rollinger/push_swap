@@ -1,0 +1,1 @@
+sources = push_swap.h stack.c instructions.c
